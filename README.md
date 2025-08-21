@@ -140,7 +140,7 @@
 *   [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - Fish-like autosuggestions for zsh
 *   [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Fish shell like syntax highlighting for Zsh.
 *   [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) - A Zsh theme
-*   [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) - Ultimate collection of 280+ curated Android root apps, Magisk/KernelSU/LSPosed modules, and step-by-step rooting guides.
+*   [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root) - Ultimate collection of best Android root apps, Magisk/KernelSU/LSPosed modules, and step-by-step rooting guides.
 *   [mbentley/docker-timemachine](https://github.com/mbentley/docker-timemachine) - Docker image to run Samba (compatible Time Machine for macOS)
 *   [dockur/macos](https://github.com/dockur/macos) - macOS inside a Docker container.
 *   [nvm-sh/nvm](https://github.com/nvm-sh/nvm) - Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions
@@ -629,7 +629,6 @@
 *   [Paxxs/Google-Blocklist](https://github.com/Paxxs/Google-Blocklist) - 适用于uBlacklist的订阅列表，拯救Google等搜索引擎的搜索体验（过滤内容农场、机器翻译站、垃圾站点）
 *   [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Self-hosted file management and sharing system, supports multiple storage providers
 *   [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) - Simple and easy to use DDNS. Support Aliyun, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, Namecheap, NameSilo...
-*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
 
 ## C
 
@@ -661,6 +660,7 @@
 *   [rofl0r/proxychains-ng](https://github.com/rofl0r/proxychains-ng) - proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project. the sf.net page is currently not updated, use releases from github release page instead.
 *   [shunf4/proxychains-windows](https://github.com/shunf4/proxychains-windows) - Windows and Cygwin port of proxychains, based on MinHook and DLL Injection
 *   [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
+*   [sabrogden/Ditto](https://github.com/sabrogden/Ditto) - Ditto is an extension to the Windows Clipboard. You copy something to the Clipboard and Ditto takes what you copied and stores it in a database to retrieve at a later time.
 *   [OpenIntelWireless/itlwm](https://github.com/OpenIntelWireless/itlwm) - Intel Wi-Fi Drivers for macOS
 *   [debauchee/barrier](https://github.com/debauchee/barrier) - Open-source KVM software
 *   [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) - Lean's LEDE source
