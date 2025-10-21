@@ -94,7 +94,6 @@
 *   [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) - Python Telegram bot api.
 *   [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: A Fast, Extensible Progress Bar for Python and CLI
 *   [KwaiVGI/LivePortrait](https://github.com/KwaiVGI/LivePortrait) - Bring portraits to life!
-*   [xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump) - 获取微信信息；读取数据库，本地查看聊天记录并导出为csv、html等格式用于AI训练，自动回复等。支持多账户信息获取，支持所有微信版本。
 *   [django/django](https://github.com/django/django) - The Web framework for perfectionists with deadlines.
 *   [xming521/WeClone](https://github.com/xming521/WeClone) - 🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案
 *   [pyper-dev/pyper](https://github.com/pyper-dev/pyper) - Concurrent Python made simple
@@ -363,6 +362,7 @@
 *   [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) - A complete computer science study plan to become a software engineer.
 *   [OpenGithubs/github-weekly-rank](https://github.com/OpenGithubs/github-weekly-rank) - Github开源项目:每周📈飙升榜 top20,每周一早上8点更新
 *   [forthespada/CS-Books](https://github.com/forthespada/CS-Books) - 🔥🔥超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经~
+*   [xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump) - 删库
 *   [obgnail/chinese-internet-is-dead](https://github.com/obgnail/chinese-internet-is-dead) - Manually maintained website blocklist
 *   [github/gitignore](https://github.com/github/gitignore) - A collection of useful .gitignore templates
 *   [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
