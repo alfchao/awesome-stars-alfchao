@@ -6,6 +6,7 @@
 
 ## Table of Contents
 
+*   [PowerShell](#powershell)
 *   [Python](#python)
 *   [Go](#go)
 *   [C++](#c)
@@ -13,7 +14,6 @@
 *   [TypeScript](#typescript)
 *   [Vue](#vue)
 *   [HTML](#html)
-*   [PowerShell](#powershell)
 *   [Swift](#swift)
 *   [miscellaneous](#miscellaneous)
 *   [Rust](#rust)
@@ -48,6 +48,11 @@
 *   [Visual Basic .NET](#visual-basic-net)
 *   [Fluent](#fluent)
 *   [Groovy](#groovy)
+
+## PowerShell
+
+*   [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) - A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
+*   [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) - Scripts to build a trimmed-down Windows 11 image.
 
 ## Python
 
@@ -525,10 +530,6 @@
 *   [maple3142/GDIndex](https://github.com/maple3142/GDIndex) - A Google Drive Index built with Vue Running on CloudFlare Workers
 *   [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) - Dism++ Multi-language Support & BUG Report
 
-## PowerShell
-
-*   [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) - Scripts to build a trimmed-down Windows 11 image.
-
 ## Swift
 
 *   [jaywcjlove/quick-rss](https://github.com/jaywcjlove/quick-rss) - A powerful and intuitive macOS desktop RSS reader that helps you manage and read your favorite RSS feeds with ease.
@@ -762,7 +763,6 @@
 *   [alx-xlx/goindex](https://github.com/alx-xlx/goindex) - Index your Google Drive
 *   [pt-plugins/PT-Plugin-Plus](https://github.com/pt-plugins/PT-Plugin-Plus) - PT 助手 Plus，为 Microsoft Edge、Google Chrome、Firefox 浏览器插件（Web Extensions），主要用于辅助下载 PT 站的种子。
 *   [KaTeX/KaTeX](https://github.com/KaTeX/KaTeX) - Fast math typesetting for the web.
-*   [langren1353/GM\_script](https://github.com/langren1353/GM_script) - 我就是来分享脚本玩玩的
 
 ## Markdown
 
