@@ -6,10 +6,10 @@
 
 ## Table of Contents
 
-*   [miscellaneous](#miscellaneous)
-*   [Swift](#swift)
-*   [HTML](#html)
 *   [Go](#go)
+*   [Swift](#swift)
+*   [miscellaneous](#miscellaneous)
+*   [HTML](#html)
 *   [Shell](#shell)
 *   [Kotlin](#kotlin)
 *   [Java](#java)
@@ -51,8 +51,118 @@
 *   [Fluent](#fluent)
 *   [Groovy](#groovy)
 
+## Go
+
+*   [docker/compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker
+*   [pranshuparmar/witr](https://github.com/pranshuparmar/witr) - Why is this running?
+*   [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
+*   [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) - 📂 Web File Browser
+*   [oliver006/redis\_exporter](https://github.com/oliver006/redis_exporter) - Prometheus Exporter for Valkey & Redis Metrics. Supports Valkey 9.x, 8.x, 7.x and various Redis versions
+*   [lin-snow/Ech0](https://github.com/lin-snow/Ech0) - Ech0 - 面向个人的新一代开源、自托管、专注思想流动的轻量级联邦发布平台
+*   [Done-0/fuck-u-code](https://github.com/Done-0/fuck-u-code) - Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告
+*   [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) - A community driven registry service for Model Context Protocol (MCP) servers.
+*   [mmulet/term.everything](https://github.com/mmulet/term.everything) - Run any GUI app in the terminal❗
+*   [github/github-mcp-server](https://github.com/github/github-mcp-server) - GitHub's official MCP Server
+*   [ouqiang/gocron](https://github.com/ouqiang/gocron) - 定时任务管理系统
+*   [nsqio/nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform
+*   [goharbor/harbor](https://github.com/goharbor/harbor) - An open source trusted cloud native registry project that stores, signs, and scans content.
+*   [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) - The simplest way to protect your apps with a login screen.
+*   [EndlessCheng/codeforces-go](https://github.com/EndlessCheng/codeforces-go) - 算法竞赛模板库 by 灵茶山艾府 💭💡🎈
+*   [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
+*   [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) - Find, verify, and analyze leaked credentials
+*   [cli/cli](https://github.com/cli/cli) - GitHub’s official command line tool
+*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
+*   [cookieY/Yearning](https://github.com/cookieY/Yearning) - 🐳 A most popular sql audit platform for mysql
+*   [opsre/go-ldap-admin](https://github.com/opsre/go-ldap-admin) - 🌉 基于Go+Vue实现的openLDAP后台管理项目
+*   [slimtoolkit/slim](https://github.com/slimtoolkit/slim) - Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
+*   [ayoisaiah/f2](https://github.com/ayoisaiah/f2) - F2 is a cross-platform command-line tool for batch renaming files and directories quickly and safely. Written in Go!
+*   [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - A new AList Fork to Anti Trust Crisis
+*   [sky22333/hubproxy](https://github.com/sky22333/hubproxy) - 多功能代理加速服务，提供 Docker 镜像加速、GitHub 加速、下载离线镜像等功能。一个二进制文件实现所有功能，支持仓库审计。流式转发，无缓存。
+*   [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 GeoIP 规则文件加强版，支持自行定制 V2Ray dat 格式文件 geoip.dat、MaxMind mmdb 格式文件、sing-box SRS 格式文件、mihomo MRS 格式文件、Clash ruleset、Surge ruleset 等。Enhanced edition of GeoIP files for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc.
+*   [acepanel/panel](https://github.com/acepanel/panel) - ⚡ AcePanel - Enterprise server operation and maintenance management panel
+*   [negativa-ai/BLAFS](https://github.com/negativa-ai/BLAFS) - A tool for Container Debloating that removes bloat and improves performance.
+*   [gdy666/lucky](https://github.com/gdy666/lucky) - 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,rclone,ftp,webdav,filebrowser
+*   [crazy-max/diun](https://github.com/crazy-max/diun) - Receive notifications when an image is updated on a Docker registry
+*   [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
+*   [fffaraz/fakessh](https://github.com/fffaraz/fakessh) - A dockerized fake SSH server honeypot written in Go that logs login attempts.
+*   [a8m/envsubst](https://github.com/a8m/envsubst) - Environment variables substitution for Go
+*   [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) - 📂 Web File Browser
+*   [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) - Git extension for versioning large files
+*   [prometheus-community/windows\_exporter](https://github.com/prometheus-community/windows_exporter) - Prometheus exporter for Windows machines
+*   [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) - Yet another WebUI for Nginx
+*   [shadow1ng/fscan](https://github.com/shadow1ng/fscan) - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
+*   [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~
+*   [nikhil1raghav/kindle-send](https://github.com/nikhil1raghav/kindle-send) - Send webpages, documents and bookmarks to kindle
+*   [usememos/memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
+*   [kingwrcy/moments](https://github.com/kingwrcy/moments) - 极简朋友圈
+*   [xteve-project/xTeVe](https://github.com/xteve-project/xTeVe) - M3U Proxy for Plex DVR and Emby Live TV
+*   [easychen/wecomchan](https://github.com/easychen/wecomchan) - 微信推送服务Server酱的开源替代。通过企业微信向微信推送消息的配置文档、直推函数和可自行搭建的在线服务代码。
+*   [srcrs/rss-reader](https://github.com/srcrs/rss-reader) - 一个极简的RSS在线浏览工具
+*   [guangzhengli/k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials) - k8s tutorials | k8s 教程
+*   [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel client
+*   [prometheus-community/postgres\_exporter](https://github.com/prometheus-community/postgres_exporter) - A PostgreSQL metric exporter for Prometheus
+*   [tickstep/aliyunpan](https://github.com/tickstep/aliyunpan) - 阿里云盘命令行客户端，支持JavaScript插件，支持同步备份功能。
+*   [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web 🌈💎✨
+*   [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) - 🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.
+*   [coder/coder](https://github.com/coder/coder) - Secure environments for developers and their agents
+*   [1Panel-dev/KubePi](https://github.com/1Panel-dev/KubePi) - 🚀 A modern, open-source K8s panel developed by the official 1Panel team.
+*   [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+*   [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Your Personal Streaming Service
+*   [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) - A node.js version management utility for Windows. Ironically written in Go.
+*   [github/git-sizer](https://github.com/github/git-sizer) - Compute various size metrics for a Git repository, flagging those that might cause problems
+*   [gohugoio/hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
+*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
+*   [txthinking/brook](https://github.com/txthinking/brook) - A cross-platform programmable network tool
+*   [portainer/helper-reset-password](https://github.com/portainer/helper-reset-password) - A container helper used to reset the administrator password of a Portainer instance
+*   [iawia002/lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go
+*   [greycodee/wechat-backup](https://github.com/greycodee/wechat-backup) - 微信聊天记录持久化备份本地硬盘，释放手机存储空间。
+*   [screego/server](https://github.com/screego/server) - screen sharing for developers https://screego.net/
+*   [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 Cross-platform, unofficial CLI for Cloudflare Warp
+*   [yangwenmai/learning-golang](https://github.com/yangwenmai/learning-golang) - Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）
+*   [tailscale/tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA.
+*   [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
+*   [CareyWang/MyUrls](https://github.com/CareyWang/MyUrls) - Your Own URL Shortener
+*   [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - Network-wide ads & trackers blocking DNS server
+*   [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
+*   [google/cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
+*   [prometheus/prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database.
+*   [prometheus/node\_exporter](https://github.com/prometheus/node_exporter) - Exporter for machine metrics
+*   [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - 基于ChatGPT3.5 API实现的私有化web程序
+*   [go-telegram-bot-api/telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) - Golang bindings for the Telegram Bot API
+*   [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+*   [0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang) - 【未来服务器端编程语言】最全空降golang资料补给包（满血战斗），包含文章，书籍，作者论文，理论分析，开源框架，云原生，大佬视频，大厂实战分享ppt
+*   [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - A telegram bot  for rss reader. 一个支持应用内阅读的 Telegram RSS Bot。
+*   [Paxxs/Google-Blocklist](https://github.com/Paxxs/Google-Blocklist) - 适用于uBlacklist的订阅列表，拯救Google等搜索引擎的搜索体验（过滤内容农场、机器翻译站、垃圾站点）
+*   [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Self-hosted file management and sharing system, supports multiple storage providers
+*   [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) - Simple and easy to use DDNS. Support Aliyun, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, Namecheap, NameSilo...
+*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+*   [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Google Drive CLI Client
+
+## Swift
+
+*   [blinksh/blink](https://github.com/blinksh/blink) - Blink Mobile Shell for iOS (Mosh based)
+*   [tisfeng/Easydict](https://github.com/tisfeng/Easydict) - 一个简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，🍎 苹果系统词典，🍎 苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。A concise and elegant Dictionary and Translator macOS App for looking up words and translating text.
+*   [mangerlahn/Latest](https://github.com/mangerlahn/Latest) - A small utility app for macOS that makes sure you know about all the latest updates to the apps you use.
+*   [buresdv/Cork](https://github.com/buresdv/Cork) - A fast GUI for Homebrew written in SwiftUI
+*   [kushalpandya/Petrichor](https://github.com/kushalpandya/Petrichor) - An offline macOS music player
+*   [Brkgng/ScrollSnap](https://github.com/Brkgng/ScrollSnap) - A macOS app for capturing and stitching scrolling screenshots.
+*   [jaywcjlove/quick-rss](https://github.com/jaywcjlove/quick-rss) - A powerful and intuitive macOS desktop RSS reader that helps you manage and read your favorite RSS feeds with ease.
+*   [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
+*   [yichengchen/ATV-Bilibili-demo](https://github.com/yichengchen/ATV-Bilibili-demo) - BiliBili Client Demo for Apple TV (tvOS)
+*   [utmapp/UTM](https://github.com/utmapp/UTM) - Virtual machines for iOS and macOS
+*   [zenangst/KeyboardCowboy](https://github.com/zenangst/KeyboardCowboy) - :keyboard: The missing keyboard shortcut utility for macOS
+*   [apple/container](https://github.com/apple/container) - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
+*   [rime/squirrel](https://github.com/rime/squirrel) - 【鼠鬚管】Rime for macOS
+*   [Caldis/Mos](https://github.com/Caldis/Mos) - 一个用于在 macOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板  |  A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse on macOS
+*   [p0deje/Maccy](https://github.com/p0deje/Maccy) - Lightweight clipboard manager for macOS
+*   [exelban/stats](https://github.com/exelban/stats) - macOS system monitor in your menu bar
+*   [Ranchero-Software/NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire) - RSS reader for macOS and iOS.
+*   [iina/iina](https://github.com/iina/iina) - The modern video player for macOS.
+*   [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) - 🖥 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.
+
 ## miscellaneous
 
+*   [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - :iphone: Collaborative List of Open-Source iOS Apps
 *   [ripperhe/Bob](https://github.com/ripperhe/Bob) - Bob 是一款 macOS 平台的翻译和 OCR 软件。
 *   [xiaye13579/BBLL](https://github.com/xiaye13579/BBLL) - 一个第三方哔哩哔哩客户端，A third-party bilibili client。
 *   [YSGStudyHards/Awesome-Tools](https://github.com/YSGStudyHards/Awesome-Tools) - 🛠Awesome Tools，程序员常用高效实用工具、软件资源精选，办公效率提升利器（A Curated Collection of High-Efficiency and Practical Tools and Software Resources for Programmers to Boost Office Productivity）。
@@ -157,27 +267,6 @@
 *   [ngosang/trackerslist](https://github.com/ngosang/trackerslist) - Updated list of public BitTorrent trackers
 *   [justjavac/free-programming-books-zh\_CN](https://github.com/justjavac/free-programming-books-zh_CN) - :books: 免费的计算机编程类中文书籍，欢迎投稿
 
-## Swift
-
-*   [tisfeng/Easydict](https://github.com/tisfeng/Easydict) - 一个简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，🍎 苹果系统词典，🍎 苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。A concise and elegant Dictionary and Translator macOS App for looking up words and translating text.
-*   [mangerlahn/Latest](https://github.com/mangerlahn/Latest) - A small utility app for macOS that makes sure you know about all the latest updates to the apps you use.
-*   [buresdv/Cork](https://github.com/buresdv/Cork) - A fast GUI for Homebrew written in SwiftUI
-*   [kushalpandya/Petrichor](https://github.com/kushalpandya/Petrichor) - An offline macOS music player
-*   [Brkgng/ScrollSnap](https://github.com/Brkgng/ScrollSnap) - A macOS app for capturing and stitching scrolling screenshots.
-*   [jaywcjlove/quick-rss](https://github.com/jaywcjlove/quick-rss) - A powerful and intuitive macOS desktop RSS reader that helps you manage and read your favorite RSS feeds with ease.
-*   [vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) - A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
-*   [yichengchen/ATV-Bilibili-demo](https://github.com/yichengchen/ATV-Bilibili-demo) - BiliBili Client Demo for Apple TV (tvOS)
-*   [utmapp/UTM](https://github.com/utmapp/UTM) - Virtual machines for iOS and macOS
-*   [zenangst/KeyboardCowboy](https://github.com/zenangst/KeyboardCowboy) - :keyboard: The missing keyboard shortcut utility for macOS
-*   [apple/container](https://github.com/apple/container) - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
-*   [rime/squirrel](https://github.com/rime/squirrel) - 【鼠鬚管】Rime for macOS
-*   [Caldis/Mos](https://github.com/Caldis/Mos) - 一个用于在 macOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板  |  A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse on macOS
-*   [p0deje/Maccy](https://github.com/p0deje/Maccy) - Lightweight clipboard manager for macOS
-*   [exelban/stats](https://github.com/exelban/stats) - macOS system monitor in your menu bar
-*   [Ranchero-Software/NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire) - RSS reader for macOS and iOS.
-*   [iina/iina](https://github.com/iina/iina) - The modern video player for macOS.
-*   [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) - 🖥 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.
-
 ## HTML
 
 *   [joyanhui/ikuai-bypass](https://github.com/joyanhui/ikuai-bypass) - 爱快分流规则维护：自动将通过指定的远程配置文件把区域ip，域名等，整理到到爱快，实现旁路由自动切换，域名分流、端口分流（IP分组分流）、自定义运营商、广告屏蔽等
@@ -199,93 +288,6 @@
 *   [sqlsec/Hackintosh](https://github.com/sqlsec/Hackintosh) - 国光的黑苹果安装教程：手把手教你配置 OpenCore
 *   [me115/linuxtools\_rst](https://github.com/me115/linuxtools_rst) - Linux工具快速教程
 *   [maple3142/GDIndex](https://github.com/maple3142/GDIndex) - A Google Drive Index built with Vue Running on CloudFlare Workers
-*   [Chuyu-Team/Dism-Multi-language](https://github.com/Chuyu-Team/Dism-Multi-language) - Dism++ Multi-language Support & BUG Report
-
-## Go
-
-*   [pranshuparmar/witr](https://github.com/pranshuparmar/witr) - Why is this running?
-*   [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
-*   [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) - 📂 Web File Browser
-*   [oliver006/redis\_exporter](https://github.com/oliver006/redis_exporter) - Prometheus Exporter for Valkey & Redis Metrics. Supports Valkey 9.x, 8.x, 7.x and various Redis versions
-*   [lin-snow/Ech0](https://github.com/lin-snow/Ech0) - Ech0 - 面向个人的新一代开源、自托管、专注思想流动的轻量级联邦发布平台
-*   [Done-0/fuck-u-code](https://github.com/Done-0/fuck-u-code) - Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告
-*   [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) - A community driven registry service for Model Context Protocol (MCP) servers.
-*   [mmulet/term.everything](https://github.com/mmulet/term.everything) - Run any GUI app in the terminal❗
-*   [github/github-mcp-server](https://github.com/github/github-mcp-server) - GitHub's official MCP Server
-*   [ouqiang/gocron](https://github.com/ouqiang/gocron) - 定时任务管理系统
-*   [nsqio/nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform
-*   [goharbor/harbor](https://github.com/goharbor/harbor) - An open source trusted cloud native registry project that stores, signs, and scans content.
-*   [steveiliop56/tinyauth](https://github.com/steveiliop56/tinyauth) - The simplest way to protect your apps with a login screen.
-*   [EndlessCheng/codeforces-go](https://github.com/EndlessCheng/codeforces-go) - 算法竞赛模板库 by 灵茶山艾府 💭💡🎈
-*   [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
-*   [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) - Find, verify, and analyze leaked credentials
-*   [cli/cli](https://github.com/cli/cli) - GitHub’s official command line tool
-*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
-*   [cookieY/Yearning](https://github.com/cookieY/Yearning) - 🐳 A most popular sql audit platform for mysql
-*   [opsre/go-ldap-admin](https://github.com/opsre/go-ldap-admin) - 🌉 基于Go+Vue实现的openLDAP后台管理项目
-*   [slimtoolkit/slim](https://github.com/slimtoolkit/slim) - Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
-*   [ayoisaiah/f2](https://github.com/ayoisaiah/f2) - F2 is a cross-platform command-line tool for batch renaming files and directories quickly and safely. Written in Go!
-*   [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - A new AList Fork to Anti Trust Crisis
-*   [sky22333/hubproxy](https://github.com/sky22333/hubproxy) - 多功能代理加速服务，提供 Docker 镜像加速、GitHub 加速、下载离线镜像等功能。一个二进制文件实现所有功能，支持仓库审计。流式转发，无缓存。
-*   [Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip) - 🌚 🌍 🌝 GeoIP 规则文件加强版，支持自行定制 V2Ray dat 格式文件 geoip.dat、MaxMind mmdb 格式文件、sing-box SRS 格式文件、mihomo MRS 格式文件、Clash ruleset、Surge ruleset 等。Enhanced edition of GeoIP files for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc.
-*   [acepanel/panel](https://github.com/acepanel/panel) - ⚡ AcePanel - Enterprise server operation and maintenance management panel
-*   [negativa-ai/BLAFS](https://github.com/negativa-ai/BLAFS) - A tool for Container Debloating that removes bloat and improves performance.
-*   [gdy666/lucky](https://github.com/gdy666/lucky) - 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,rclone,ftp,webdav,filebrowser
-*   [crazy-max/diun](https://github.com/crazy-max/diun) - Receive notifications when an image is updated on a Docker registry
-*   [nektos/act](https://github.com/nektos/act) - Run your GitHub Actions locally 🚀
-*   [fffaraz/fakessh](https://github.com/fffaraz/fakessh) - A dockerized fake SSH server honeypot written in Go that logs login attempts.
-*   [a8m/envsubst](https://github.com/a8m/envsubst) - Environment variables substitution for Go
-*   [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) - 📂 Web File Browser
-*   [git-lfs/git-lfs](https://github.com/git-lfs/git-lfs) - Git extension for versioning large files
-*   [prometheus-community/windows\_exporter](https://github.com/prometheus-community/windows_exporter) - Prometheus exporter for Windows machines
-*   [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) - Yet another WebUI for Nginx
-*   [shadow1ng/fscan](https://github.com/shadow1ng/fscan) - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
-*   [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 多个解析 IP 的网站 ~
-*   [nikhil1raghav/kindle-send](https://github.com/nikhil1raghav/kindle-send) - Send webpages, documents and bookmarks to kindle
-*   [usememos/memos](https://github.com/usememos/memos) - An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
-*   [kingwrcy/moments](https://github.com/kingwrcy/moments) - 极简朋友圈
-*   [xteve-project/xTeVe](https://github.com/xteve-project/xTeVe) - M3U Proxy for Plex DVR and Emby Live TV
-*   [easychen/wecomchan](https://github.com/easychen/wecomchan) - 微信推送服务Server酱的开源替代。通过企业微信向微信推送消息的配置文档、直推函数和可自行搭建的在线服务代码。
-*   [srcrs/rss-reader](https://github.com/srcrs/rss-reader) - 一个极简的RSS在线浏览工具
-*   [guangzhengli/k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials) - k8s tutorials | k8s 教程
-*   [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel client
-*   [prometheus-community/postgres\_exporter](https://github.com/prometheus-community/postgres_exporter) - A PostgreSQL metric exporter for Prometheus
-*   [tickstep/aliyunpan](https://github.com/tickstep/aliyunpan) - 阿里云盘命令行客户端，支持JavaScript插件，支持同步备份功能。
-*   [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App for the Decentralized Web 🌈💎✨
-*   [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) - 🔥 1Panel provides an intuitive web interface and MCP Server to manage websites, files, containers, databases, and LLMs on a Linux server.
-*   [coder/coder](https://github.com/coder/coder) - Secure environments for developers and their agents
-*   [1Panel-dev/KubePi](https://github.com/1Panel-dev/KubePi) - 🚀 A modern, open-source K8s panel developed by the official 1Panel team.
-*   [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
-*   [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Your Personal Streaming Service
-*   [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) - A node.js version management utility for Windows. Ironically written in Go.
-*   [github/git-sizer](https://github.com/github/git-sizer) - Compute various size metrics for a Git repository, flagging those that might cause problems
-*   [gohugoio/hugo](https://github.com/gohugoio/hugo) - The world’s fastest framework for building websites.
-*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
-*   [txthinking/brook](https://github.com/txthinking/brook) - A cross-platform programmable network tool
-*   [portainer/helper-reset-password](https://github.com/portainer/helper-reset-password) - A container helper used to reset the administrator password of a Portainer instance
-*   [iawia002/lux](https://github.com/iawia002/lux) - 👾 Fast and simple video download library and CLI tool written in Go
-*   [greycodee/wechat-backup](https://github.com/greycodee/wechat-backup) - 微信聊天记录持久化备份本地硬盘，释放手机存储空间。
-*   [screego/server](https://github.com/screego/server) - screen sharing for developers https://screego.net/
-*   [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 Cross-platform, unofficial CLI for Cloudflare Warp
-*   [yangwenmai/learning-golang](https://github.com/yangwenmai/learning-golang) - Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）
-*   [tailscale/tailscale](https://github.com/tailscale/tailscale) - The easiest, most secure way to use WireGuard and 2FA.
-*   [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
-*   [CareyWang/MyUrls](https://github.com/CareyWang/MyUrls) - Your Own URL Shortener
-*   [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - Network-wide ads & trackers blocking DNS server
-*   [containrrr/watchtower](https://github.com/containrrr/watchtower) - A process for automating Docker container base image updates.
-*   [google/cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
-*   [prometheus/prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database.
-*   [prometheus/node\_exporter](https://github.com/prometheus/node_exporter) - Exporter for machine metrics
-*   [869413421/chatgpt-web](https://github.com/869413421/chatgpt-web) - 基于ChatGPT3.5 API实现的私有化web程序
-*   [go-telegram-bot-api/telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api) - Golang bindings for the Telegram Bot API
-*   [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
-*   [0voice/Introduction-to-Golang](https://github.com/0voice/Introduction-to-Golang) - 【未来服务器端编程语言】最全空降golang资料补给包（满血战斗），包含文章，书籍，作者论文，理论分析，开源框架，云原生，大佬视频，大厂实战分享ppt
-*   [indes/flowerss-bot](https://github.com/indes/flowerss-bot) - A telegram bot  for rss reader. 一个支持应用内阅读的 Telegram RSS Bot。
-*   [Paxxs/Google-Blocklist](https://github.com/Paxxs/Google-Blocklist) - 适用于uBlacklist的订阅列表，拯救Google等搜索引擎的搜索体验（过滤内容农场、机器翻译站、垃圾站点）
-*   [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Self-hosted file management and sharing system, supports multiple storage providers
-*   [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) - Simple and easy to use DDNS. Support Aliyun, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, Namecheap, NameSilo...
-*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-*   [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Google Drive CLI Client
 
 ## Shell
 
@@ -688,7 +690,6 @@
 *   [alx-xlx/goindex](https://github.com/alx-xlx/goindex) - Index your Google Drive
 *   [pt-plugins/PT-Plugin-Plus](https://github.com/pt-plugins/PT-Plugin-Plus) - PT 助手 Plus，为 Microsoft Edge、Google Chrome、Firefox 浏览器插件（Web Extensions），主要用于辅助下载 PT 站的种子。
 *   [KaTeX/KaTeX](https://github.com/KaTeX/KaTeX) - Fast math typesetting for the web.
-*   [langren1353/GM\_script](https://github.com/langren1353/GM_script) - 我就是来分享脚本玩玩的
 
 ## Python
 
@@ -1051,7 +1052,6 @@
 *   [clechasseur/pathcopycopy](https://github.com/clechasseur/pathcopycopy) - Copy file paths from Windows explorer's contextual menu
 *   [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) - 这是一个用于显示当前网速、CPU及内存利用率的桌面悬浮窗软件，并支持任务栏显示，支持更换皮肤。
 *   [snowie2000/mactype](https://github.com/snowie2000/mactype) - Better font rendering for Windows.
-*   [TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) - A lightweight utility that makes the Windows taskbar translucent/transparent.
 
 ## Batchfile
 
