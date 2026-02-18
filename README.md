@@ -365,6 +365,7 @@
 *   [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) - A modern vue admin panel built with Vue3, Shadcn UI, Vite, TypeScript, and Monorepo. It's fast!
 *   [binjie09/chatgpt-web](https://github.com/binjie09/chatgpt-web) - 使用 express 和 vue3 搭建的 ChartGPT 演示网页
 *   [Chanzhaoyu/chatgpt-web](https://github.com/Chanzhaoyu/chatgpt-web) - 用 Express 和  Vue3 搭建的 ChatGPT 演示网页
+*   [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - "Sigma File Manager" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.
 *   [Lissy93/dashy](https://github.com/Lissy93/dashy) - 🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!
 *   [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 好的，今天我们来做菜！OK, Let's Cook!
 *   [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) - 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron:
@@ -657,7 +658,6 @@
 *   [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) - Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
 *   [zxh326/kite](https://github.com/zxh326/kite) - 🪁 A modern, lightweight Kubernetes dashboard.
 *   [toon-format/toon](https://github.com/toon-format/toon) - 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.
-*   [cjpais/Handy](https://github.com/cjpais/Handy) - A free, open source, and extensible speech-to-text application that works completely offline.
 *   [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) - Spec-driven development (SDD) for AI coding assistants.
 *   [conwnet/github1s](https://github.com/conwnet/github1s) - One second to read GitHub code with VS Code.
 *   [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
@@ -934,7 +934,6 @@
 *   [esnet/iperf](https://github.com/esnet/iperf) - iperf3:  A TCP, UDP, and SCTP network bandwidth measurement tool
 *   [tsl0922/ttyd](https://github.com/tsl0922/ttyd) - Share your terminal over the web
 *   [haad/proxychains](https://github.com/haad/proxychains) - proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy.  Supported auth-types: "user/pass" for SOCKS4/5, "basic" for HTTP.
-*   [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager) - "Sigma File Manager" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.
 *   [pbatard/rufus](https://github.com/pbatard/rufus) - The Reliable USB Formatting Utility
 *   [rofl0r/proxychains-ng](https://github.com/rofl0r/proxychains-ng) - proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project. the sf.net page is currently not updated, use releases from github release page instead.
 *   [shunf4/proxychains-windows](https://github.com/shunf4/proxychains-windows) - Windows and Cygwin port of proxychains, based on MinHook and DLL Injection
@@ -994,6 +993,7 @@
 *   [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - A curated list of Rust code and resources.
 *   [prefix-dev/pixi](https://github.com/prefix-dev/pixi) - Package management made easy
 *   [unhappychoice/gitlogue](https://github.com/unhappychoice/gitlogue) - A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.
+*   [cjpais/Handy](https://github.com/cjpais/Handy) - A free, open source, and extensible speech-to-text application that works completely offline.
 *   [idootop/open-xiaoai](https://github.com/idootop/open-xiaoai) - 🔊 让小爱音箱「听见你的声音」，解锁无限可能。
 *   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
 *   [benfred/py-spy](https://github.com/benfred/py-spy) - Sampling profiler for Python programs
