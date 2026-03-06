@@ -370,7 +370,7 @@
 *   [hisproc/transmission-next-ui](https://github.com/hisproc/transmission-next-ui) - 一个Transmission的第三方Web UI。 / A modern web-based frontend for Transmission, offering a sleek and responsive UI for managing your torrents with ease, built using shadcn/ui and Vite.
 *   [zmrlft/GreenWall](https://github.com/zmrlft/GreenWall) - customizing the GitHub contribution graph, allowing you to draw various patterns on it.在你的GitHub贡献历史上画画！
 *   [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) - Create stunning screen recordings for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
-*   [kite-org/kite](https://github.com/kite-org/kite) - 🪁 A modern, lightweight Kubernetes dashboard.
+*   [kite-org/kite](https://github.com/kite-org/kite) - 🪁 A lightweight, modern Kubernetes dashboard that unifies multi-cluster and resource management, enterprise-grade user governance (OAuth, RBAC, and audit logs), and AI agents in one workspace. Not just a tool, but more like a platform.
 *   [toon-format/toon](https://github.com/toon-format/toon) - 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.
 *   [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) - Spec-driven development (SDD) for AI coding assistants.
 *   [conwnet/github1s](https://github.com/conwnet/github1s) - One second to read GitHub code with VS Code.
