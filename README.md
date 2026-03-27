@@ -186,7 +186,7 @@
 *   [nocobase/nocobase](https://github.com/nocobase/nocobase) - NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.
 *   [Adpro-Team/GKD\_THS\_List](https://github.com/Adpro-Team/GKD_THS_List) - GKD第三方订阅收录名单
 *   [linagora/twake-drive-legacy](https://github.com/linagora/twake-drive-legacy) - LEGACY: The open-source alternative to Google Drive.
-*   [pages-cms/pages-cms](https://github.com/pages-cms/pages-cms) - The simplest CMS you'll ever need. Manage content and media right in your GitHub repository.
+*   [pagescms/pagescms](https://github.com/pagescms/pagescms) - The simplest CMS you'll ever need. Manage content and media right in your GitHub repository.
 *   [coder/code-server](https://github.com/coder/code-server) - VS Code in the browser
 *   [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
 *   [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) - freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
@@ -237,6 +237,7 @@
 *   [dushixiang/next-terminal](https://github.com/dushixiang/next-terminal) - Next Terminal 是一个简洁、安全、易用的运维审计系统，支持多种远程访问协议，包括 RDP、SSH、VNC、Telnet、HTTP 等，适用于企业级运维场景。它可以记录和回放会话，协助安全审计与合规追踪。
 *   [dream-num/univer](https://github.com/dream-num/univer) - Build AI-native spreadsheets. Univer is a full-stack framework for creating and editing spreadsheets on both web and server. With Univer Platform, Univer Spreadsheets is driven directly through natural language.
 *   [ImSingee/hammal](https://github.com/ImSingee/hammal) - docker-registry proxy run in cloudflare workers
+*   [miantiao-me/BroadcastChannel](https://github.com/miantiao-me/BroadcastChannel) - Turn your Telegram Channel into a MicroBlog.
 *   [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) - Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.
 *   [jayzcoder/TrguiNG](https://github.com/jayzcoder/TrguiNG) - Transmission WebUI 基于 openscopeproject/TrguiNG 汉化和改进
 *   [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources) - Autoupdate iptv sources
@@ -668,7 +669,6 @@
 *   [cmliu/CF-Workers-docker.io](https://github.com/cmliu/CF-Workers-docker.io) - 这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。
 *   [txstc55/ugly-avatar](https://github.com/txstc55/ugly-avatar) -
 *   [Huibq/keep-alive](https://github.com/Huibq/keep-alive) - 洛雪音乐音源、MusicFree音源、落雪音乐音源
-*   [miantiao-me/BroadcastChannel](https://github.com/miantiao-me/BroadcastChannel) - Turn your Telegram Channel into a MicroBlog.
 *   [ledccn/iyuuplus-dev](https://github.com/ledccn/iyuuplus-dev) - IYUU自动辅种工具，目前能对国内大部分的PT站点自动辅种，支持下载器集群，支持多盘位，支持多下载目录，支持连接远程下载器等。
 *   [jashkenas/underscore](https://github.com/jashkenas/underscore) - JavaScript's utility \_ belt
 *   [isno/theByteBook](https://github.com/isno/theByteBook) - ⭐ 【出版书籍】京东购买链接 https://item.jd.com/14531549.html  深入讲解内核网络、Kubernetes、ServiceMesh、容器等云原生相关技术。经历实践检验的 DevOps、SRE指南。
@@ -943,7 +943,7 @@
 
 ## Kotlin
 
-*   [OpenHub-Store/GitHub-Store](https://github.com/OpenHub-Store/GitHub-Store) - A free, open-source app store for GitHub releases — browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop (Linux, MacOS, Windows).
+*   [OpenHub-Store/GitHub-Store](https://github.com/OpenHub-Store/GitHub-Store) - 🩵 A free, open-source app store for GitHub releases — browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop (Linux, MacOS, Windows).
 *   [Coooolfan/XiaomiAlbumSyncer](https://github.com/Coooolfan/XiaomiAlbumSyncer) - 全量/增量/定时 下载小米云服务中的 相册/录音 到本地
 *   [nesror/Home-Assistant-Companion-for-Android](https://github.com/nesror/Home-Assistant-Companion-for-Android) - :iphone: Home Assistant Companion for Android
 *   [pure-music/PureMusic](https://github.com/pure-music/PureMusic) - 本地/百度网盘/阿里云盘/WebDAV/GoogleDrive/OneDrive/Plex/Emby/Jelly/Navidrome音乐播放器，支持Android、Windows、Mac、Linux平台
