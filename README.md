@@ -783,7 +783,7 @@
 *   [Magisk-Modules-Repo/MagiskHidePropsConf](https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf) - This tool is now dead...
 *   [stilleshan/rssforever](https://github.com/stilleshan/rssforever) - Nginx + TTRSS / FreshRSS + RSSHub 整合 docker 容器化一键部署方案.
 *   [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) - ONLYOFFICE Docs is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations, forms and PDF, fully compatible with Office Open XML formats: .docx, .xlsx, .pptx and enabling collaborative editing in real time.
-*   [nextcloud/docker](https://github.com/nextcloud/docker) - ⛴ Docker image of Nextcloud
+*   [nextcloud/docker](https://github.com/nextcloud/docker) - A community maintained docker micro-image for deploying Nextcloud on container platforms
 *   [ONLYOFFICE/Docker-CommunityServer](https://github.com/ONLYOFFICE/Docker-CommunityServer) - Collaborative system for managing documents, projects, customer relations and emails in one place
 *   [ivanhao/pvetools](https://github.com/ivanhao/pvetools) - proxmox ve tools script(debian9+ can use it).Including email, samba, NFS set zfs max ram, nested virtualization ,docker , pci passthrough etc. for english user,please look the end of readme.
 *   [jlesage/docker-firefox](https://github.com/jlesage/docker-firefox) - Docker container for Firefox
