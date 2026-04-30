@@ -6,6 +6,7 @@
 
 ## Table of Contents
 
+*   [Dockerfile](#dockerfile)
 *   [Python](#python)
 *   [Shell](#shell)
 *   [TypeScript](#typescript)
@@ -19,7 +20,6 @@
 *   [PHP](#php)
 *   [Dart](#dart)
 *   [Java](#java)
-*   [Dockerfile](#dockerfile)
 *   [Kotlin](#kotlin)
 *   [Just](#just)
 *   [C](#c-1)
@@ -46,8 +46,20 @@
 *   [Scala](#scala)
 *   [Inno Setup](#inno-setup)
 
+## Dockerfile
+
+*   [oritera/Cairn](https://github.com/oritera/Cairn) - AI 自动化通用问题解决 / AI 自动化渗透测试系统
+*   [zabbix/zabbix-docker](https://github.com/zabbix/zabbix-docker) - Official Zabbix Dockerfiles
+*   [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) - 程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).
+*   [1activegeek/docker-airconnect](https://github.com/1activegeek/docker-airconnect) - AirConnect container for turning Chromecast into Airplay targets
+*   [linuxserver/docker-transmission](https://github.com/linuxserver/docker-transmission) -
+*   [P3TERX/Aria2-Pro-Docker](https://github.com/P3TERX/Aria2-Pro-Docker) - Aria2 Pro | A perfect Aria2 Docker image | 更好用的 Aria2 Docker 容器镜像
+*   [jaywcjlove/reference](https://github.com/jaywcjlove/reference) - 面向开发者的技术速查清单（Cheat Sheets）集合，整理常见技术、工具与开发流程，帮助快速查阅关键信息，提高开发效率。
+*   [linuxserver/docker-calibre-web](https://github.com/linuxserver/docker-calibre-web) -
+
 ## Python
 
+*   [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) - A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
 *   [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) - A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw
 *   [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) - 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
 *   [TomBadash/Mouser](https://github.com/TomBadash/Mouser) - A lightweight, open-source, fully local alternative to Logitech Options+ for remapping Logitech HID++ mice.
@@ -473,7 +485,6 @@
 *   [any86/any-rule](https://github.com/any86/any-rule) - 🦕  常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台
 *   [Bowen7/regex-vis](https://github.com/Bowen7/regex-vis) - 🎨 Regex visualizer & editor
 *   [YunYouJun/cook](https://github.com/YunYouJun/cook) - 🍲 好的，今天我们来做菜！OK, Let's Cook!
-*   [ineo6/hosts](https://github.com/ineo6/hosts) - GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。
 
 ## Rust
 
@@ -769,7 +780,6 @@
 *   [zhiwehu/Python-programming-exercises](https://github.com/zhiwehu/Python-programming-exercises) - 100+ Python challenging programming exercises
 *   [0voice/linux\_kernel\_wiki](https://github.com/0voice/linux_kernel_wiki) - linux内核学习资料：200+经典内核文章，100+内核论文，50+内核项目，500+内核面试题，80+内核视频
 *   [imarvinle/awesome-cs-books](https://github.com/imarvinle/awesome-cs-books) - 🔥 经典编程书籍大全，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
-*   [ShameCom/ShameCom](https://github.com/ShameCom/ShameCom) - 收集校招污点公司或组织，帮助学弟学妹避雷。互联网不曾遗忘！
 
 ## Swift
 
@@ -911,7 +921,7 @@
 
 ## Java
 
-*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 一款 AI 驱动的低代码平台，提供"零代码"与"代码生成"双模式——零代码模式一句话搭建系统，代码生成模式自动输出前后端代码与建表 SQL，生成即可运行。平台内置 AI 聊天助手、AI大模型、知识库、AI流程编排、MCP 与插件体系，兼容主流大模型，支持一句话生成流程图、设计表单、聊天式业务操作，解决 Java 项目 80% 重复工作，高效且不失灵活。
+*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - AI低代码平台，支持「低代码 + 零代码」双模式：零代码 5 分钟搭建业务系统，低代码模式一键生成前后端代码。 内置AI 应用，支持AI聊天、知识库、流程编排、MCP与插件，支持各种模型。Skills能力实现：一句话画流程图、设计表单、生成系统。 引领 AI生成→在线配置→代码生成→手工合并的开发模式，解决Java项目80%的重复工作，快速提高效率，又不失灵活性。
 *   [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) - 开源的报表工具与BI大屏，完美替代帆软和Tableau，提供强大的报表能力。一款类似Excel的报表设计器和大屏设计！完全在线傻瓜式拖拽设计，高效降低报表开发难度，解决各类报表难题。
 *   [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is an offline IP-to-Region localization library and IP data management framework with both IPv4 and IPv6 supports, 10-microsecond level query efficiency, xdb search client for many programming languages
 *   [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) - 一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄
@@ -939,16 +949,6 @@
 *   [zfile-dev/zfile](https://github.com/zfile-dev/zfile) - 在线云盘、网盘、OneDrive、云存储、私有云、对象存储、h5ai、上传、下载
 *   [AutohomeCorp/frostmourne](https://github.com/AutohomeCorp/frostmourne) - Frostmourne（霜之哀伤监控平台）是基于Elasticsearch, Prometheus, SkyWalking, InfluxDB，Mysql/TiDB，ClickHouse, SqlServer, IoTDB数据的分布式监控报警系统. Monitor & alert & alarm for Elasticsearch，Prometheus data。主要使用springboot2 + vue-element-admin
 *   [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) - To Be Top Javaer - Java工程师成神之路
-
-## Dockerfile
-
-*   [zabbix/zabbix-docker](https://github.com/zabbix/zabbix-docker) - Official Zabbix Dockerfiles
-*   [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) - 程序员在家做饭方法指南。Programmer's guide about how to cook at home (Simplified Chinese only).
-*   [1activegeek/docker-airconnect](https://github.com/1activegeek/docker-airconnect) - AirConnect container for turning Chromecast into Airplay targets
-*   [linuxserver/docker-transmission](https://github.com/linuxserver/docker-transmission) -
-*   [P3TERX/Aria2-Pro-Docker](https://github.com/P3TERX/Aria2-Pro-Docker) - Aria2 Pro | A perfect Aria2 Docker image | 更好用的 Aria2 Docker 容器镜像
-*   [jaywcjlove/reference](https://github.com/jaywcjlove/reference) - 面向开发者的技术速查清单（Cheat Sheets）集合，整理常见技术、工具与开发流程，帮助快速查阅关键信息，提高开发效率。
-*   [linuxserver/docker-calibre-web](https://github.com/linuxserver/docker-calibre-web) -
 
 ## Kotlin
 
