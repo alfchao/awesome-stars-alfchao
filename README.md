@@ -357,7 +357,7 @@
 *   [fabric/fabric](https://github.com/fabric/fabric) - Simple, Pythonic remote execution and deployment.
 *   [paramiko/paramiko](https://github.com/paramiko/paramiko) - The leading native Python SSHv2 protocol library.
 *   [Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos) - ⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。
-*   [modelscope/FunASR](https://github.com/modelscope/FunASR) - A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.
+*   [modelscope/FunASR](https://github.com/modelscope/FunASR) - Industrial-grade speech recognition toolkit. 170x realtime, 50+ languages, speaker diarization, emotion detection — all in 3 lines of Python. Production-ready.
 *   [encode/httpx](https://github.com/encode/httpx) - A next generation HTTP client for Python. 🦋
 *   [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
 *   [NanmiCoder/CrawlerTutorial](https://github.com/NanmiCoder/CrawlerTutorial) - 爬虫入门、爬虫进阶、高级爬虫
