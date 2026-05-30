@@ -125,7 +125,7 @@
 *   [mamertofabian/mcp-everything-search](https://github.com/mamertofabian/mcp-everything-search) -
 *   [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) - MCP Server for Computer Use in Windows
 *   [Jesseovo/last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) - last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。
-*   [ScottSloan/Bili23-Downloader](https://github.com/ScottSloan/Bili23-Downloader) - Bili23-Downloader 是一款跨平台的 B 站视频下载工具，兼容 Windows（含 Win7）、Linux 和 macOS。它拥有现代化 UI，支持音视频流分离下载、多线程加速、弹幕与字幕获取、封面提取、元数据刮削等丰富功能，并可自定义文件命名与分类，满足多样化需求。
+*   [ScottSloan/Bili23-Downloader](https://github.com/ScottSloan/Bili23-Downloader) - 开源、免费、跨平台的 B 站视频下载工具，支持多线程加速、音视频分离、弹幕元数据获取、自定义命名与分类等功能。Open Source, Free, Cross-Platform Bilibili Video Downloader.
 *   [BerriAI/litellm](https://github.com/BerriAI/litellm) - Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. \[Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]
 *   [oritera/Cairn](https://github.com/oritera/Cairn) - A AI general-purpose state-space search engine, validated first on autonomous penetration testing.
 *   [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) - A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
@@ -605,6 +605,7 @@
 *   [JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action) - 🚀 Automatically deploy your project to GitHub Pages using GitHub Actions. This action can be configured to push your production-ready code into any branch you'd like.
 *   [docker/metadata-action](https://github.com/docker/metadata-action) - GitHub Action to extract metadata (tags, labels) from Git reference and GitHub events for Docker
 *   [docker/build-push-action](https://github.com/docker/build-push-action) - GitHub Action to build and push Docker images with Buildx
+*   [mermaid-js/mermaid-live-editor](https://github.com/mermaid-js/mermaid-live-editor) - Edit, preview and share mermaid charts/diagrams. New implementation of the live editor.
 *   [actions/cache](https://github.com/actions/cache) - Cache dependencies and build outputs in GitHub Actions
 *   [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) - Keyviz is a free and open-source tool to visualize your keystrokes ⌨️ and 🖱️ mouse actions in real-time.
 *   [zhanglun/lettura](https://github.com/zhanglun/lettura) - another rss reader
@@ -660,7 +661,7 @@
 
 *   [DetachHead/rebased](https://github.com/DetachHead/rebased) - A git client based on the IntelliJ platform
 *   [maxiaof/github-hosts](https://github.com/maxiaof/github-hosts) - 通过修改Hosts解决国内Github经常抽风访问不到,每日更新
-*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - AI 低代码平台，「低代码 + 零代码」双模式驱动：低代码一键生成前后端代码，零代码 5 分钟搭建系统，AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java 项目 80% 的重复工作，提效而不失灵活。
+*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - AI 低代码平台「低代码 + 零代码」双驱动！低代码可一键生成前后端代码;零代码可 5 分钟搭建系统;AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java 项目 80% 的重复工作，提效而不失灵活。
 *   [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) - 免费的AI可视化报表。一句话描述需求，AI 自动生成报表与数据大屏；同时提供类 Excel 拖拽设计器，兼容 30 余种数据源，轻松应对各类复杂报表场景——帆软、Tableau 的高性价比开源替代。
 *   [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region is an offline IP-to-Region localization library and IP data management framework with both IPv4 and IPv6 supports, 10-microsecond level query efficiency, xdb search client for many programming languages
 *   [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) - 一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄
@@ -1225,7 +1226,6 @@
 ## Svelte
 
 *   [VERT-sh/VERT](https://github.com/VERT-sh/VERT) - The next-generation file converter. Open source, fully local\* and free forever.
-*   [mermaid-js/mermaid-live-editor](https://github.com/mermaid-js/mermaid-live-editor) - Edit, preview and share mermaid charts/diagrams. New implementation of the live editor.
 
 ## CoffeeScript
 
