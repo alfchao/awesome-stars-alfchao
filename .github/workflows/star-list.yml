@@ -8,18 +8,52 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+# Prevent concurrent runs from conflicting
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Awesome generator
-        uses: simonecorsi/mawesome@v2
+      - name: Checkout
+        uses: actions/checkout@v4
+        # Shallow clone is enough - we don't need history
         with:
-          api-token: ${{ secrets.API_TOKEN }}
-          github-name: "github-actions[bot]"
-          github-email: "github-actions[bot]@users.noreply.github.com"
-          template-path: "template/README.ejs"
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate README
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          TEMPLATE_PATH: template/README.ejs
+        run: node scripts/generate-readme.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Pull latest changes before pushing to avoid non-fast-forward errors
+          git pull origin ${{ github.ref_name }} --rebase
+          
+          git add README.md data.json
+          
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "docs: update awesome list"
+          git push
