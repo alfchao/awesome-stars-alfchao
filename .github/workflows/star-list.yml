@@ -15,11 +15,101 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Awesome generator
-        uses: simonecorsi/mawesome@v2
-        with:
-          api-token: ${{ secrets.API_TOKEN }}
-          github-name: "github-actions[bot]"
-          github-email: "github-actions[bot]@users.noreply.github.com"
-          template-path: "template/README.ejs"
+      - uses: actions/checkout@v4
+
+      - name: Generate README
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USERNAME: alfchao
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          const username = process.env.GITHUB_USERNAME;
+          const token = process.env.API_TOKEN || process.env.GITHUB_TOKEN;
+          const headers = {
+            Accept: 'application/vnd.github+json',
+            'User-Agent': 'github-actions-script',
+          };
+
+          if (token) headers.Authorization = `Bearer ${token}`;
+
+          async function fetchStarredRepos() {
+            const repos = [];
+            for (let page = 1; ; page += 1) {
+              const url = `https://api.github.com/users/${username}/starred?per_page=100&page=${page}`;
+              const response = await fetch(url, { headers });
+              if (!response.ok) {
+                throw new Error(`Failed to fetch starred repos: ${response.status} ${response.statusText}`);
+              }
+
+              const batch = await response.json();
+              if (!batch.length) break;
+              repos.push(...batch);
+              if (batch.length < 100) break;
+            }
+            return repos;
+          }
+
+          function groupByLanguage(repos) {
+            const groups = new Map();
+            for (const repo of repos) {
+              const language = repo.language || 'Unknown';
+              if (!groups.has(language)) {
+                groups.set(language, []);
+              }
+              groups.get(language).push(repo);
+            }
+            return groups;
+          }
+
+          function renderReadme(username, groups) {
+            let output = `# ${username} Awesome List [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n`;
+            output += `> :star: generated with GitHub Actions\n\n\n`;
+            output += `> star_list: [${username}'s Stars](https://github.com/${username}?tab=stars)\n\n\n`;
+            output += `## Table of Contents\n\n`;
+
+            for (const [language, repositories] of groups) {
+              output += `## ${language}\n\n`;
+              for (const repo of repositories) {
+                const description = (repo.description || '').replace(/\r?\n/g, ' ');
+                output += `- [${repo.full_name}](${repo.html_url}) - ${description}\n`;
+              }
+              output += `  \n\n`;
+            }
+
+            return output;
+          }
+
+          async function main() {
+            const repos = await fetchStarredRepos();
+            const groups = groupByLanguage(repos);
+            const readme = renderReadme(username, groups);
+            const current = fs.readFileSync('README.md', 'utf8');
+
+            if (current !== readme) {
+              fs.writeFileSync('README.md', readme);
+              console.log('README.md updated');
+            } else {
+              console.log('README.md unchanged');
+            }
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+
+      - name: Commit README changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: update awesome list"
+          git push
