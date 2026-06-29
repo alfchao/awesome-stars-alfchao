@@ -45,15 +45,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Pull latest changes before pushing to avoid non-fast-forward errors
-          git pull origin ${{ github.ref_name }} --rebase
-          
           git add README.md data.json
           
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
+          
+          # Pull latest changes before pushing to avoid non-fast-forward errors
+          git pull origin ${{ github.ref_name }} --rebase --autostash
           
           git commit -m "docs: update awesome list"
           git push
