@@ -53,4 +53,8 @@ jobs:
           fi
           
           git commit -m "docs: update awesome list"
+          
+          # Pull latest changes, prefer our version if there's conflict
+          git pull origin ${{ github.ref_name }} --rebase -X ours
+          
           git push
