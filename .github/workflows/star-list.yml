@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+# Prevent concurrent runs from conflicting
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -18,8 +23,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        # Shallow clone is enough - we don't need history
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,147 +37,23 @@ jobs:
           API_TOKEN: ${{ secrets.API_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_USER: ${{ github.repository_owner }}
-        run: |
-          node <<'NODE'
-          const fs = require('fs');
-
-          // Priority: API_TOKEN first, then GITHUB_TOKEN (note: GITHUB_TOKEN has only repo scope, cannot read user starred repos)
-          const token = process.env.API_TOKEN;
-          const user = process.env.GITHUB_USER;
-          const templatePath = 'template/README.ejs';
-
-          if (!token) {
-            throw new Error('Missing API_TOKEN secret. GITHUB_TOKEN does not have permission to read your starred repositories.');
-          }
-
-          // Simple retry helper
-          async function withRetry(fn, retries = 3, delay = 1000) {
-            try {
-              return await fn();
-            } catch (error) {
-              if (retries <= 0) throw error;
-              console.warn(`Request failed, retrying (${retries} left)...`, error.message);
-              await new Promise(resolve => setTimeout(resolve, delay));
-              return withRetry(fn, retries - 1, delay * 2);
-            }
-          }
-
-          async function fetchStarredRepos() {
-            const repos = [];
-
-            for (let page = 1; ; page += 1) {
-              const url = `https://api.github.com/users/${user}/starred?per_page=100&page=${page}`;
-              const response = await withRetry(() => fetch(url, {
-                headers: {
-                  Authorization: `Bearer ${token}`,
-                  Accept: 'application/vnd.github+json',
-                  'X-GitHub-Api-Version': '2022-11-28',
-                  'User-Agent': `${user}-awesome-stars-workflow`,
-                },
-              }));
-
-              if (!response.ok) {
-                throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
-              }
-
-              const items = await response.json();
-              if (!items.length) {
-                break;
-              }
-
-              repos.push(...items);
-
-              if (items.length < 100) {
-                break;
-              }
-            }
-
-            return repos;
-          }
-
-          function groupByLanguage(repos) {
-            const map = new Map();
-
-            for (const repo of repos) {
-              const language = repo.language || 'Unknown';
-              if (!map.has(language)) {
-                map.set(language, []);
-              }
-              map.get(language).push(repo);
-            }
-
-            const entries = Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b));
-            return entries.map(([language, items]) => ({
-              language,
-              repos: items.sort((a, b) => a.full_name.localeCompare(b.full_name)),
-            }));
-          }
-
-          function renderTemplate(template, data) {
-            // Minimal EJS-like renderer supporting <% code %> and <%= expr %>
-            const escapeBackticks = s => s.replace(/\\/g, '\\\\').replace(/`/g, '\\`');
-            let code = 'let __out = ``;\nwith(data) {\n';
-            let cursor = 0;
-            const re = /<%([=-]?)([\s\S]*?)%>/g;
-            let match;
-
-            while ((match = re.exec(template)) !== null) {
-              code += `__out += \`${escapeBackticks(template.slice(cursor, match.index))}\`;\n`;
-              if (match[1] === '=') {
-                code += `__out += (${match[2].trim()});\n`;
-              } else {
-                code += `${match[2]}\n`;
-              }
-              cursor = match.index + match[0].length;
-            }
-
-            code += `__out += \`${escapeBackticks(template.slice(cursor))}\`;\n}\nreturn __out;`;
-            return new Function('data', code)(data);
-          }
-
-          (async () => {
-            const repos = await fetchStarredRepos();
-            const groups = groupByLanguage(repos);
-
-            // Generate data.json (compatible with old behavior)
-            const data = {
-              generatedAt: new Date().toISOString(),
-              user,
-              repos,
-              languages: groups.map(g => g.language),
-              reposByLanguage: groups
-            };
-            fs.writeFileSync('data.json', JSON.stringify(data, null, 2) + '\n');
-            console.log('data.json updated');
-
-            // Render from existing template
-            const template = fs.readFileSync(templatePath, 'utf8');
-            const readme = renderTemplate(template, {
-              username: user,
-              stars: groups
-            });
-            const current = fs.readFileSync('README.md', 'utf8');
-
-            if (current !== readme) {
-              fs.writeFileSync('README.md', readme);
-              console.log('README.md updated');
-            } else {
-              console.log('README.md unchanged');
-            }
-          })().catch((error) => {
-            console.error(error);
-            process.exit(1);
-          });
-          NODE
+          TEMPLATE_PATH: template/README.ejs
+        run: node scripts/generate-readme.js
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- README.md data.json; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Pull latest changes before pushing to avoid non-fast-forward errors
+          git pull origin ${{ github.ref_name }} --rebase
+          
+          git add README.md data.json
+          
+          if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data.json
+          
           git commit -m "docs: update awesome list"
           git push
