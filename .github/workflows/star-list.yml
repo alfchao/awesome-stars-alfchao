@@ -35,11 +35,25 @@ jobs:
           node <<'NODE'
           const fs = require('fs');
 
-          const token = process.env.API_TOKEN || process.env.GITHUB_TOKEN;
+          // Priority: API_TOKEN first, then GITHUB_TOKEN (note: GITHUB_TOKEN has only repo scope, cannot read user starred repos)
+          const token = process.env.API_TOKEN;
           const user = process.env.GITHUB_USER;
+          const templatePath = 'template/README.ejs';
 
           if (!token) {
-            throw new Error('Missing token');
+            throw new Error('Missing API_TOKEN secret. GITHUB_TOKEN does not have permission to read your starred repositories.');
+          }
+
+          // Simple retry helper
+          async function withRetry(fn, retries = 3, delay = 1000) {
+            try {
+              return await fn();
+            } catch (error) {
+              if (retries <= 0) throw error;
+              console.warn(`Request failed, retrying (${retries} left)...`, error.message);
+              await new Promise(resolve => setTimeout(resolve, delay));
+              return withRetry(fn, retries - 1, delay * 2);
+            }
           }
 
           async function fetchStarredRepos() {
@@ -47,14 +61,14 @@ jobs:
 
             for (let page = 1; ; page += 1) {
               const url = `https://api.github.com/users/${user}/starred?per_page=100&page=${page}`;
-              const response = await fetch(url, {
+              const response = await withRetry(() => fetch(url, {
                 headers: {
                   Authorization: `Bearer ${token}`,
                   Accept: 'application/vnd.github+json',
                   'X-GitHub-Api-Version': '2022-11-28',
                   'User-Agent': `${user}-awesome-stars-workflow`,
                 },
-              });
+              }));
 
               if (!response.ok) {
                 throw new Error(`GitHub API ${response.status}: ${await response.text()}`);
@@ -93,30 +107,49 @@ jobs:
             }));
           }
 
-          function renderReadme(owner, groups) {
-            let output = `# ${owner} Awesome List [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n`;
-            output += `> :star: generated with GitHub Actions\n\n\n`;
-            output += `> star_list: [${owner}'s Stars](https://github.com/${owner}?tab=stars)\n\n\n`;
-            output += `## Table of Contents\n\n`;
+          function renderTemplate(template, data) {
+            // Minimal EJS-like renderer supporting <% code %> and <%= expr %>
+            const escapeBackticks = s => s.replace(/\\/g, '\\\\').replace(/`/g, '\\`');
+            let code = 'let __out = ``;\nwith(data) {\n';
+            let cursor = 0;
+            const re = /<%([=-]?)([\s\S]*?)%>/g;
+            let match;
 
-            for (const { language, repos } of groups) {
-              output += `## ${language}\n\n`;
-
-              for (const repo of repos) {
-                const description = (repo.description || '').replace(/\r?\n/g, ' ');
-                output += `- [${repo.full_name}](${repo.html_url}) - ${description}\n`;
+            while ((match = re.exec(template)) !== null) {
+              code += `__out += \`${escapeBackticks(template.slice(cursor, match.index))}\`;\n`;
+              if (match[1] === '=') {
+                code += `__out += (${match[2].trim()});\n`;
+              } else {
+                code += `${match[2]}\n`;
               }
-
-              output += `  \n\n`;
+              cursor = match.index + match[0].length;
             }
 
-            return output;
+            code += `__out += \`${escapeBackticks(template.slice(cursor))}\`;\n}\nreturn __out;`;
+            return new Function('data', code)(data);
           }
 
           (async () => {
             const repos = await fetchStarredRepos();
             const groups = groupByLanguage(repos);
-            const readme = renderReadme(user, groups);
+
+            // Generate data.json (compatible with old behavior)
+            const data = {
+              generatedAt: new Date().toISOString(),
+              user,
+              repos,
+              languages: groups.map(g => g.language),
+              reposByLanguage: groups
+            };
+            fs.writeFileSync('data.json', JSON.stringify(data, null, 2) + '\n');
+            console.log('data.json updated');
+
+            // Render from existing template
+            const template = fs.readFileSync(templatePath, 'utf8');
+            const readme = renderTemplate(template, {
+              username: user,
+              stars: groups
+            });
             const current = fs.readFileSync('README.md', 'utf8');
 
             if (current !== readme) {
@@ -131,14 +164,14 @@ jobs:
           });
           NODE
 
-      - name: Commit README changes
+      - name: Commit changes
         run: |
-          if git diff --quiet -- README.md; then
+          if git diff --quiet -- README.md data.json; then
             echo "No changes to commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md data.json
           git commit -m "docs: update awesome list"
           git push
