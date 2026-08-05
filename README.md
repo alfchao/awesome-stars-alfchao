@@ -502,6 +502,7 @@
 - [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator) - A simple, open source bilingual translation extension & Greasemonkey script \(一个简约、开源的 双语对照翻译扩展 & 油猴脚本\)
 - [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) - The iconic SVG, font, and CSS toolkit
 - [freestylefly/mcp-server-weread](https://github.com/freestylefly/mcp-server-weread) - 微信读书MCP
+- [fthux/GitZipPro](https://github.com/fthux/GitZipPro) - :book: GitZip for GitHub, but Pro. Download only the files and folders you need. GitZip for GitHub, 但是 Pro 版本。只下载你真正需要的内容
 - [gethomepage/homepage](https://github.com/gethomepage/homepage) - A highly customizable homepage \(or startpage / application dashboard\) with Docker and service API integrations.
 - [gitbobobo/StreamMusic](https://github.com/gitbobobo/StreamMusic) - 支持 Android、iOS、macOS、Windows 平台的 Subsonic/Navidrome/Jellyfin/Emby/AudioStation 客户端。
 - [google/zx](https://github.com/google/zx) - A tool for writing better scripts
