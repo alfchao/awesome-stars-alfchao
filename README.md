@@ -431,7 +431,7 @@
 - [AutohomeCorp/frostmourne](https://github.com/AutohomeCorp/frostmourne) - Frostmourne（霜之哀伤监控平台）是基于Elasticsearch, Prometheus, SkyWalking, InfluxDB，Mysql/TiDB，ClickHouse, SqlServer, IoTDB数据的分布式监控报警系统. Monitor & alert & alarm for Elasticsearch，Prometheus data。主要使用springboot2 + vue-element-admin
 - [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) - Free universal database tool and SQL client
 - [DetachHead/rebased](https://github.com/DetachHead/rebased) - A git client based on the IntelliJ platform
-- [Devo919/Gewechat](https://github.com/Devo919/Gewechat) - 微信机器人框架，个人微信二次开发，最简单易用的免费二开框架,微信ipad登录（非HOOK破解桌面端）
+- [Devo919/Gewechat](https://github.com/Devo919/Gewechat) - 微信机器人框架，个人微信二次开发，企业微信二次开发，最简单易用的免费二开框架,RPA技术（非HOOK破解桌面端）
 - [doocs/leetcode](https://github.com/doocs/leetcode) - 🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解
 - [erickok/transdroid](https://github.com/erickok/transdroid) - Manage your torrents from your Android device
 - [guyijie1211/JustLive-Android](https://github.com/guyijie1211/JustLive-Android) - 📱一个整合国内多个直播平台内容的App
@@ -577,6 +577,7 @@
 - [wekan/wekan](https://github.com/wekan/wekan) - The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . New English strings for new features at imports/i18n/data/en.i18n.json . Non-English translations at https://app.transifex.com/wekan/wekan only.
 - [xiangyuecn/AreaCity-JsSpider-StatsGov](https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov) - 省市区县乡镇三级或四级城市数据，带拼音标注、坐标、行政区域边界范围；2026年04月03日最新采集，提供csv格式文件，支持在线转成多级联动js代码、通用json格式，提供软件转成shp、geojson、sql、导入数据库；带浏览器里面运行的js采集源码，综合了中华人民共和国民政部、中国•国家地名信息库、统计局、高德地图、腾讯地图行政区划数据
 - [xiaoxinpro/nginx-proxy-manager-zh](https://github.com/xiaoxinpro/nginx-proxy-manager-zh) - 基于nginx-proxy-manager翻译的中文版本
+- [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) - 猫抓 浏览器资源嗅探扩展 / cat-catch Browser Resource Sniffing Extension
 - [XIU2/UserScript](https://github.com/XIU2/UserScript) - 🐵 自用的一些乱七八糟 油猴脚本\~ 
 - [xixu-me/xget](https://github.com/xixu-me/xget) - Ultra-high-performance, secure, all-in-one acceleration engine for developer resources
 - [ylxb2016/PT-help](https://github.com/ylxb2016/PT-help) - PT相关
@@ -827,7 +828,7 @@
 - [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) - Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!
 - [netaddr/netaddr](https://github.com/netaddr/netaddr) - A network address manipulation library for Python
 - [newren/git-filter-repo](https://github.com/newren/git-filter-repo) - Quickly rewrite git repository history \(filter-branch replacement\)
-- [nicolargo/glances](https://github.com/nicolargo/glances) - Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.
+- [nicolargo/glances](https://github.com/nicolargo/glances) - Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, macOS and Windows operating systems.
 - [nornir-automation/nornir](https://github.com/nornir-automation/nornir) - Pluggable multi-threaded framework with inventory management to help operate collections of devices
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) - The agent that grows with you
 - [nvbn/thefuck](https://github.com/nvbn/thefuck) - Magnificent app which corrects your previous console command.
@@ -912,6 +913,7 @@
 - [tqdm/tqdm](https://github.com/tqdm/tqdm) - :zap: A Fast, Extensible Progress Bar for Python and CLI
 - [trim21/transmission-rpc](https://github.com/trim21/transmission-rpc) - 
 - [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) - 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。
+- [usestrix/strix](https://github.com/usestrix/strix) - Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
 - [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) - 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件（FileCodeBox - File Express Cabinet - Anonymous Passcode Sharing Text, Files, Like Taking Express Delivery for Files）
 - [vinta/awesome-python](https://github.com/vinta/awesome-python) - An opinionated list of Python frameworks, libraries, tools, and resources
 - [vmware/pyvmomi](https://github.com/vmware/pyvmomi) - VMware vSphere API Python Bindings
