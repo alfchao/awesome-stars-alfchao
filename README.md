@@ -339,7 +339,7 @@
 - [Paxxs/Google-Blocklist](https://github.com/Paxxs/Google-Blocklist) - 适用于uBlacklist的订阅列表，拯救Google等搜索引擎的搜索体验（过滤内容农场、机器翻译站、垃圾站点）
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) - AI-Powered Photos App 🌈💎✨
 - [portainer/helper-reset-password](https://github.com/portainer/helper-reset-password) - A container helper used to reset the administrator password of a Portainer instance
-- [pranshuparmar/witr](https://github.com/pranshuparmar/witr) - Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
+- [pranshuparmar/witr](https://github.com/pranshuparmar/witr) - Why is this running? CA: BYjCWd4XS7PTnDbou4Swwmj4XkAtreMKew8n2Pagpump
 - [prasmussen/gdrive](https://github.com/prasmussen/gdrive) - Google Drive CLI Client
 - [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
 - [prometheus-community/postgres_exporter](https://github.com/prometheus-community/postgres_exporter) - A PostgreSQL metric exporter for Prometheus
@@ -1004,7 +1004,7 @@
 - [attogram/bash-screensavers](https://github.com/attogram/bash-screensavers) - Turn your idle shell into a visual playground with this collection of Bash screensav­ers
 - [awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash) - A curated list of delightful Bash scripts and resources.
 - [basecamp/omakub](https://github.com/basecamp/omakub) - Opinionated Ubuntu Setup
-- [binpash/try](https://github.com/binpash/try) - Control and manipulate a command's effects before modifying your live system
+- [binpash/try](https://github.com/binpash/try) - Inspect, control, and manipulate a command's effects before modifying your live system.
 - [bitnami/containers](https://github.com/bitnami/containers) - Bitnami container images
 - [cloudflare/skills](https://github.com/cloudflare/skills) - Skills for teaching agents how to build on Cloudflare.
 - [cturra/docker-ntp](https://github.com/cturra/docker-ntp) - 🕒 Chrony NTP Server running in a Docker container \(without the priviledged flag\) 
