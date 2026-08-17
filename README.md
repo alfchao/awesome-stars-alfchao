@@ -918,7 +918,7 @@
 - [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) - 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。
 - [usestrix/strix](https://github.com/usestrix/strix) - Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
 - [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) - 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件（FileCodeBox - File Express Cabinet - Anonymous Passcode Sharing Text, Files, Like Taking Express Delivery for Files）
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) - An opinionated list of Python frameworks, libraries, tools, and resources
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) - The definitive list that answers "I want to do X in Python, which tool should I use?"
 - [vmware/pyvmomi](https://github.com/vmware/pyvmomi) - VMware vSphere API Python Bindings
 - [vmware/pyvmomi-community-samples](https://github.com/vmware/pyvmomi-community-samples) - A place for community contributed samples for the pyVmomi library.
 - [wbt5/real-url](https://github.com/wbt5/real-url) - 获取斗鱼&虎牙&哔哩哔哩&抖音&快手等 58 个直播平台的真实流媒体地址\(直播源\)和弹幕，直播源可在 PotPlayer、flv.js 等播放器中播放。
@@ -978,7 +978,7 @@
 - [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust) - A curated list of Rust code and resources.
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 - [stalwartlabs/stalwart](https://github.com/stalwartlabs/stalwart) - All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol \(IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV\).
-- [t8y2/dbx](https://github.com/t8y2/dbx) - 20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。
+- [t8y2/dbx](https://github.com/t8y2/dbx) - 20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop and mobile applications with a web frontend.
 - [theopfr/somo](https://github.com/theopfr/somo) - A human-friendly alternative to netstat for socket and port monitoring on Linux and macOS.
 - [unhappychoice/gitlogue](https://github.com/unhappychoice/gitlogue) - A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.
