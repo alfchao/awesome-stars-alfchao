@@ -532,6 +532,7 @@
 - [jcool98/cs-wiki](https://github.com/jcool98/cs-wiki) - 📙 致力打造完善的后端知识体系. Not only an Interview-Guide, but also a Learning-Direction.
 - [jgraph/drawio-mcp](https://github.com/jgraph/drawio-mcp) - 
 - [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) - 🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活
+- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - 抖音 / TikTok 平台作品下载/数据采集工具
 - [jquery/jquery](https://github.com/jquery/jquery) - jQuery JavaScript Library
 - [kalkih/mini-graph-card](https://github.com/kalkih/mini-graph-card) - Minimalistic graph card for Home Assistant Lovelace UI
 - [koodo-reader/koodo-reader](https://github.com/koodo-reader/koodo-reader) - A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web
@@ -804,7 +805,6 @@
 - [Jesseovo/last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn) - last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。
 - [jianchang512/clone-voice](https://github.com/jianchang512/clone-voice) - A sound cloning tool with a web interface, using your voice or any sound to record audio / 一个带web界面的声音克隆工具，使用你的音色或任意声音来录制音频
 - [jimmy201602/webterminal](https://github.com/jimmy201602/webterminal) - ssh rdp vnc telnet sftp bastion/jump web putty xshell terminal jumpserver audit realtime monitor rz/sz 堡垒机 云桌面 linux devops sftp websocket  file management rz/sz otp 自动化运维 审计 录像 文件管理 sftp上传 实时监控 录像回放 网页版rz/sz上传下载/动态口令 django
-- [JoeanAmier/TikTokDownloader](https://github.com/JoeanAmier/TikTokDownloader) - 抖音 / TikTok 平台作品下载/数据采集工具
 - [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) - A curated list of awesome Machine Learning frameworks, libraries and software.
 - [jumpserver/jumpserver](https://github.com/jumpserver/jumpserver) - JumpServer is an open-source Privileged Access Management \(PAM\) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.
 - [jxxghp/MoviePilot](https://github.com/jxxghp/MoviePilot) - NAS媒体库自动化管理工具
