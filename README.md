@@ -491,6 +491,7 @@
 - [afc163/fanyi](https://github.com/afc163/fanyi) - A 🇨🇳 and 🇺🇸 translator in your command line
 - [affaan-m/ECC](https://github.com/affaan-m/ECC) - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 - [alam00000/bentopdf](https://github.com/alam00000/bentopdf) - The Privacy First PDF Toolkit
+- [Alterssss/dsh-bili-whale](https://github.com/Alterssss/dsh-bili-whale) - 给 DSH 装一条有日子的鱼：自己按作息刷 B 站、真看懂视频、写两本日记，把值得的 @ 你。
 - [alx-xlx/goindex](https://github.com/alx-xlx/goindex) - Index your Google Drive
 - [anc95/ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview) - 🐥 A code review bot powered by ChatGPT
 - [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) - :zap: Dynamically generated stats for your github readmes
@@ -500,6 +501,7 @@
 - [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode) - A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai
 - [benweet/stackedit](https://github.com/benweet/stackedit) - In-browser Markdown editor
 - [bgstaal/multipleWindow3dScene](https://github.com/bgstaal/multipleWindow3dScene) - A quick example of how one can "synchronize" a 3d scene across multiple windows using three.js and localStorage
+- [c1overzz/dsh-bili-scroll](https://github.com/c1overzz/dsh-bili-scroll) - DSH 插件：每天替你刷一轮 B站，读字幕挑出值得的、写一份日报，值得的 @ 你
 - [cambecc/earth](https://github.com/cambecc/earth) - a project to visualize global weather conditions
 - [carbon-app/carbon](https://github.com/carbon-app/carbon) - :black\_heart: Create and share beautiful images of your source code
 - [cerebroapp/cerebro](https://github.com/cerebroapp/cerebro) - 🔵 Cerebro is an open-source launcher to improve your productivity and efficiency
@@ -641,6 +643,7 @@
 - [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - 基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
 - [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.
 - [jarnedemeulemeester/findroid](https://github.com/jarnedemeulemeester/findroid) - Third-party native Jellyfin Android app
+- [jay3-yy/BiliPai](https://github.com/jay3-yy/BiliPai) - 原生、纯净、可扩展 —— 重新定义你的 B 站体验
 - [komi-store/komi-store](https://github.com/komi-store/komi-store) - 🩵 A free, open-source app store for developers' releases on GitHub, Codeberg & Forgejo — browse, discover, and install apps with one click. Formerly GitHub Store.
 - [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) - An alternative frontend for YouTube, for Android.
 - [nesror/Home-Assistant-Companion-for-Android](https://github.com/nesror/Home-Assistant-Companion-for-Android) - :iphone: Home Assistant Companion for Android
@@ -902,6 +905,7 @@
 - [RapidAI/RapidOCR](https://github.com/RapidAI/RapidOCR) - 📄 Awesome OCR multiple programing languages toolkits based on ONNX Runtime, OpenVINO, MNN, PaddlePaddle, TensorRT and PyTorch.
 - [Red5d/docker-autocompose](https://github.com/Red5d/docker-autocompose) - Generate a docker-compose yaml definition from a running container
 - [redis/redis-py](https://github.com/redis/redis-py) - Redis Python client
+- [redtidev1918/TelePost](https://github.com/redtidev1918/TelePost) - Telegram 频道投稿、审核与自动化发布平台，支持 Bot、Mini App、多 Bot 和 HTTP API。 | Telegram channel submission, moderation and automated publishing platform with Bot, Mini App, multi-bot and HTTP API support
 - [rmartin16/qbittorrent-api](https://github.com/rmartin16/qbittorrent-api) - Python client implementation for qBittorrent's Web API
 - [rocky/python-uncompyle6](https://github.com/rocky/python-uncompyle6) - A cross-version Python bytecode decompiler
 - [ronf/asyncssh](https://github.com/ronf/asyncssh) - AsyncSSH is a Python package which provides an asynchronous client and server implementation of the SSHv2 protocol on top of the Python asyncio framework.
@@ -984,6 +988,7 @@
 - [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡
 - [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 The Modern Port Scanner 🤖
 - [benfred/py-spy](https://github.com/benfred/py-spy) - Sampling profiler for Python programs
+- [biliup/biliup](https://github.com/biliup/biliup) - 自动直播录制、投稿、twitch、ytb频道搬运工具。命令行投稿\(B站\)和视频下载工具，提供多种登录方式，支持多p。边录边传0落盘
 - [cjpais/Handy](https://github.com/cjpais/Handy) - A free, open source, and extensible speech-to-text application that works completely offline.
 - [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
 - [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
@@ -1243,6 +1248,7 @@
 - [laurent22/joplin](https://github.com/laurent22/joplin) - Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
 - [lcomplete/huntly](https://github.com/lcomplete/huntly) - Your Personal AI-Powered Information Hub
 - [leinelissen/jellyfin-audio-player](https://github.com/leinelissen/jellyfin-audio-player) - 🎵 A gorgeous Jellyfin audio streaming app for iOS and Android
+- [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) - 一分钟搭建影视站，支持Docker等部署方式
 - [linagora/twake-drive-legacy](https://github.com/linagora/twake-drive-legacy) - LEGACY: The open-source alternative to Google Drive. 
 - [louislam/dockge](https://github.com/louislam/dockge) - A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
 - [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) - 一个基于 Electron 的音乐软件
