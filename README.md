@@ -13,8 +13,6 @@
 
 * [Batchfile](#batchfile)
 
-* [Brainfuck](#brainfuck)
-
 * [C](#c)
 
 * [C#](#c)
@@ -107,12 +105,6 @@
 
 - [Hiyoung006/Win11Useable](https://github.com/Hiyoung006/Win11Useable) - 将Win11右键菜单及资源管理器恢复为Win10样式的脚本
 - [lovebetterworld/postgres](https://github.com/lovebetterworld/postgres) - PostgreSQL笔记分享，PostGis，整理全网最全PostgreSQL教程，德哥Pg笔记整理，PostgreSQL资料整理
-  
-
-
-## <a id="brainfuck">Brainfuck</a>
-
-- [kiddin9/Kwrt](https://github.com/kiddin9/Kwrt) - openwrt 软路由固件
   
 
 
@@ -649,6 +641,7 @@
 - [CrossPaste/crosspaste-desktop](https://github.com/CrossPaste/crosspaste-desktop) - Cross-device clipboard sync for macOS, Windows & Linux — end-to-end encrypted, LAN-only, no cloud. OCR, CLI and MCP server built in.
 - [f-droid/fdroidclient](https://github.com/f-droid/fdroidclient) - Android client application.
 - [gkd-kit/gkd](https://github.com/gkd-kit/gkd) - 基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
+- [HuanCheng65/TiebaLite](https://github.com/HuanCheng65/TiebaLite) - 贴吧 Lite
 - [iamgio/quarkdown](https://github.com/iamgio/quarkdown) - 🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.
 - [jarnedemeulemeester/findroid](https://github.com/jarnedemeulemeester/findroid) - Third-party native Jellyfin Android app
 - [jay3-yy/BiliPai](https://github.com/jay3-yy/BiliPai) - 原生、纯净、可扩展 —— 重新定义你的 B 站体验
@@ -1080,6 +1073,7 @@
 - [jlesage/docker-firefox](https://github.com/jlesage/docker-firefox) - Docker container for Firefox
 - [kasmtech/workspaces-core-images](https://github.com/kasmtech/workspaces-core-images) - 
 - [kasmtech/workspaces-images](https://github.com/kasmtech/workspaces-images) - 
+- [kiddin9/Kwrt](https://github.com/kiddin9/Kwrt) - openwrt 软路由固件
 - [kingkongshot/Pensieve](https://github.com/kingkongshot/Pensieve) - tore your decisions and principles. Claude reads them to make better choices.
 - [lfgyx/fnos_certificate_update](https://github.com/lfgyx/fnos_certificate_update) - This Bash script automates SSL/TLS certificate renewal on Feiniu OS using acme.sh. It validates domains via Alibaba Cloud DNS, backs up old certificates, installs new ones, and restarts services to apply the updates, ensuring seamless certificate management and updates on Feiniu OS systems.
 - [Magisk-Modules-Repo/MagiskHidePropsConf](https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf) - This tool is now dead...
@@ -1179,7 +1173,7 @@
 - [any86/any-rule](https://github.com/any86/any-rule) - 🦕  常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.
 - [balena-io/etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
-- [bardesss/arr-mcp](https://github.com/bardesss/arr-mcp) - One MCP server for the whole self-hosted media stack: Radarr, Sonarr, Whisparr, Lidarr, Prowlarr, Bazarr, Jellyfin, Plex, Seerr, SABnzbd, NZBGet, Transmission, qBittorrent and Profilarr.
+- [bardesss/arr-mcp](https://github.com/bardesss/arr-mcp) - One MCP server for the whole self-hosted media stack: Radarr, Sonarr, Whisparr, Lidarr, Prowlarr, Bazarr, Jellyfin, Plex, Seerr, SABnzbd, NZBGet, Transmission, qBittorrent, Profilarr and Cleanuparr.
 - [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) - Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, and more. Linux, MacOS, and Windows.
 - [Bowen7/regex-vis](https://github.com/Bowen7/regex-vis) - 🎨 Regex visualizer & editor
 - [C4illin/ConvertX](https://github.com/C4illin/ConvertX) - 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️
@@ -1350,7 +1344,7 @@
 - [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader) - Modern desktop RSS reader built with Electron, React, and Fluent UI
 - [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) - Curated coding interview preparation materials for busy software engineers
 - [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) - Teams-first Multi-agent orchestration for Claude Code
-- [YishenTu/claudian](https://github.com/YishenTu/claudian) - An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault
+- [YishenTu/claudian](https://github.com/YishenTu/claudian) - An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.
 - [YouMind-OpenLab/awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) - 🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.
 - [zhanglun/lettura](https://github.com/zhanglun/lettura) - another rss reader
 - [zmrlft/GreenWall](https://github.com/zmrlft/GreenWall) - customizing the GitHub contribution graph, allowing you to draw various patterns on it.在你的GitHub贡献历史上画画！
@@ -1396,7 +1390,6 @@
 - [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) - A collection of various awesome lists for hackers, pentesters and security researchers
 - [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) - 中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill
 - [hr157/QTTabBar_zh-CN](https://github.com/hr157/QTTabBar_zh-CN) - QTTabBar 简体中文语言包
-- [HuanCheng65/TiebaLite](https://github.com/HuanCheng65/TiebaLite) - 贴吧 Lite
 - [hzpt-inet-club/english-note](https://github.com/hzpt-inet-club/english-note) - 从0开始学习英语语法
 - [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
 - [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) - 直播源相关资源汇总 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵
