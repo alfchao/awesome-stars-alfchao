@@ -81,6 +81,8 @@
 
 * [Shell](#shell)
 
+* [Svelte](#svelte)
+
 * [Swift](#swift)
 
 * [TeX](#tex)
@@ -469,7 +471,7 @@
 - [guyijie1211/JustLive-Android](https://github.com/guyijie1211/JustLive-Android) - 📱一个整合国内多个直播平台内容的App
 - [hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer) - To Be Top Javaer - Java工程师成神之路
 - [itwanger/toBeBetterJavaer](https://github.com/itwanger/toBeBetterJavaer) - 一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄
-- [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并-&gt;AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。
+- [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI 知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置 AI 应用平台（聊天、知识库、流程编排、MCP），兼容主流大模型。Java + Vue3，支持单体/微服务与信创国产化。
 - [jeecgboot/jimureport](https://github.com/jeecgboot/jimureport) - 一款真正的 AI 报表诞生了！JimuChatBI —— 首款免费开源对话式智能数据分析产品（Chat2BI）。  一句话生成报表和数据大屏，支持对话式 AI 修改优化；类 Excel 在线报表设计，兼容国产信创数据源。  对着 AI 说句话，报表就出来了——表格、图表、分组汇总自动生成，复杂报表场景轻松应对。想做数据大屏？同样一句话搞定，让数据分析进入 AI 时代。
 - [kaaass/ZerotierFix](https://github.com/kaaass/ZerotierFix) - An unofficial Zerotier Android client patched from official client
 - [kekingcn/kkFileView](https://github.com/kekingcn/kkFileView) - Universal File Online Preview Project based on Spring-Boot
@@ -556,6 +558,7 @@
 - [HeyPuter/everything](https://github.com/HeyPuter/everything) - We're rebuilding and open-sourcing the world’s software from scratch.
 - [hmarr/debug-action](https://github.com/hmarr/debug-action) - 🛠 Show environment variables and event JSON in the Action logs
 - [Huibq/keep-alive](https://github.com/Huibq/keep-alive) - 洛雪音乐音源、MusicFree音源、落雪音乐音源
+- [HunYiSage/dsh-purge](https://github.com/HunYiSage/dsh-purge) - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 - [iamfugui/youtube-adb](https://github.com/iamfugui/youtube-adb) - A script to remove YouTube ads, including static ads and video ads, without interfering with the network and ensuring safety.  脚本用于移除YouTube广告，包括静态广告和视频广告。不会干扰网络，安全。
 - [Ice-Hazymoon/MikuTools](https://github.com/Ice-Hazymoon/MikuTools) - 一个轻量的工具集合
 - [isno/theByteBook](https://github.com/isno/theByteBook) - ⭐ 【出版书籍】京东购买链接 https://item.jd.com/14531549.html  深入讲解内核网络、Kubernetes、ServiceMesh、容器等云原生相关技术。经历实践检验的“大规模分布式系统”开发指南。
@@ -625,7 +628,6 @@
 - [xixu-me/xget](https://github.com/xixu-me/xget) - Ultra-high-performance, secure, all-in-one acceleration engine for developer resources
 - [ylxb2016/PT-help](https://github.com/ylxb2016/PT-help) - PT相关
 - [youhunwl/TVAPP](https://github.com/youhunwl/TVAPP) -  收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。提供安全验证、分类索引与兼容性标注，助力用户打造家庭影音娱乐中心！              ✅ TVBox/影视仓等影音壳接口配置源。
-- [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) - DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分
 - [ZekerTop/ai-cli-complete-notify](https://github.com/ZekerTop/ai-cli-complete-notify) - 面向 Claude Code / Codex / OpenCode / Gemini / ZCode  的多通道AI CLI 任务完成提醒，支持耗时阈值、桌面端与命令行、通用 Webhook（飞书/钉钉/企微）、Telegram、邮件、桌面/声音提示，配备自动监听日志，AI摘要等功能
 - [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) - Running V2ray inside edge/serverless runtime
 - [zumerlab/snapdom](https://github.com/zumerlab/snapdom) - High-performance engine for capturing, modifying, and converting DOM elements into any format.
@@ -886,7 +888,6 @@
 - [nvbn/thefuck](https://github.com/nvbn/thefuck) - Magnificent app which corrects your previous console command.
 - [offa/android-foss](https://github.com/offa/android-foss) - A list of Free and Open Source Software \(FOSS\) for Android – saving Freedom and Privacy.
 - [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) - Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface \(Supports Ollama, OpenAI API, ...\)
 - [OpenEthan/SMSBoom](https://github.com/OpenEthan/SMSBoom) - SMSBoom - Deprecate: Due to judicial reasons, the repository has been suspended!
 - [originalankur/maptoposter](https://github.com/originalankur/maptoposter) - Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.
 - [oritera/Cairn](https://github.com/oritera/Cairn) - Cairn is a general-purpose AI state-space search engine, validated first on autonomous penetration testing. Sometimes misspelled as Carin.
@@ -1000,7 +1001,7 @@
 
 ## <a id="rust">Rust</a>
 
-- [aimod-cc/Agent2API](https://github.com/aimod-cc/Agent2API) - 本地反向代理 + OpenAI 兼容 AI 网关：复用桌面客户端登录态，一个 base\_url 调用十余家模型额度 · Local OpenAI-compatible gateway for AI coding clients — WorkBuddy, Raccoon, CatPaw, AutoClaw, Qoder, Cline, Accio, ZCode, CodeArts, Trae and more.
+- [aimod-cc/Agent2API](https://github.com/aimod-cc/Agent2API) - Local AI routing gateway with Agent client takeover — reuse existing client logins, call 50+ AI clients through one base URL, with unified OpenAI / Anthropic / Images APIs, multi-account routing, check-in, balance and request reports · 本地 AI 路由网关 + Agent 客户端接管：复用各家客户端登录态，一个 base\_url 调用 50+ 家模型额度，统一 OpenAI / Anthropic / 生图接口，多账号选路、签到、余额与请求报表一体管理
 - [astral-sh/ruff](https://github.com/astral-sh/ruff) - An extremely fast Python linter and code formatter, written in Rust.
 - [bee-san/Ciphey](https://github.com/bee-san/Ciphey) - ⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡
 - [bee-san/RustScan](https://github.com/bee-san/RustScan) - 🤖 The Modern Port Scanner 🤖
@@ -1124,6 +1125,12 @@
   
 
 
+## <a id="svelte">Svelte</a>
+
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface \(Supports Ollama, OpenAI API, ...\)
+  
+
+
 ## <a id="swift">Swift</a>
 
 - [apple/container](https://github.com/apple/container) - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. 
@@ -1185,7 +1192,7 @@
 - [any86/any-rule](https://github.com/any86/any-rule) - 🦕  常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.
 - [balena-io/etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
-- [bardesss/arr-mcp](https://github.com/bardesss/arr-mcp) - One MCP server for the whole self-hosted media stack: Radarr, Sonarr, Whisparr, Lidarr, Prowlarr, Bazarr, Jellyfin, Plex, Seerr, SABnzbd, NZBGet, Transmission, qBittorrent, Profilarr, Cleanuparr and Reclaimerr.
+- [bardesss/arr-mcp](https://github.com/bardesss/arr-mcp) - One MCP server for the whole self-hosted media stack: Radarr, Sonarr, Whisparr, Lidarr, Prowlarr, Bazarr, Jellyfin, Plex, Seerr, SABnzbd, NZBGet, Transmission, qBittorrent, Profilarr, Cleanuparr, Reclaimerr and Dispatcharr.
 - [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) - Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, ClickHouse, and more. Linux, MacOS, and Windows.
 - [Bowen7/regex-vis](https://github.com/Bowen7/regex-vis) - 🎨 Regex visualizer & editor
 - [C4illin/ConvertX](https://github.com/C4illin/ConvertX) - 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️
