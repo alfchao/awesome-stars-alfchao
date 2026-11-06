@@ -13,8 +13,6 @@
 
 * [Batchfile](#batchfile)
 
-* [Brainfuck](#brainfuck)
-
 * [C](#c)
 
 * [C#](#c)
@@ -111,12 +109,6 @@
 
 - [Hiyoung006/Win11Useable](https://github.com/Hiyoung006/Win11Useable) - 将Win11右键菜单及资源管理器恢复为Win10样式的脚本
 - [lovebetterworld/postgres](https://github.com/lovebetterworld/postgres) - PostgreSQL笔记分享，PostGis，整理全网最全PostgreSQL教程，德哥Pg笔记整理，PostgreSQL资料整理
-  
-
-
-## <a id="brainfuck">Brainfuck</a>
-
-- [kiddin9/Kwrt](https://github.com/kiddin9/Kwrt) - openwrt 软路由固件
   
 
 
@@ -1086,6 +1078,7 @@
 - [jlesage/docker-firefox](https://github.com/jlesage/docker-firefox) - Docker container for Firefox
 - [kasmtech/workspaces-core-images](https://github.com/kasmtech/workspaces-core-images) - 
 - [kasmtech/workspaces-images](https://github.com/kasmtech/workspaces-images) - 
+- [kiddin9/Kwrt](https://github.com/kiddin9/Kwrt) - openwrt 软路由固件
 - [kingkongshot/Pensieve](https://github.com/kingkongshot/Pensieve) - tore your decisions and principles. Claude reads them to make better choices.
 - [lfgyx/fnos_certificate_update](https://github.com/lfgyx/fnos_certificate_update) - This Bash script automates SSL/TLS certificate renewal on Feiniu OS using acme.sh. It validates domains via Alibaba Cloud DNS, backs up old certificates, installs new ones, and restarts services to apply the updates, ensuring seamless certificate management and updates on Feiniu OS systems.
 - [Magisk-Modules-Repo/MagiskHidePropsConf](https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf) - This tool is now dead...
@@ -1191,7 +1184,7 @@
 - [any86/any-rule](https://github.com/any86/any-rule) - 🦕  常用正则大全, 支持web / vscode / idea / Alfred Workflow多平台
 - [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) - ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.
 - [balena-io/etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
-- [bardesss/arr-mcp](https://github.com/bardesss/arr-mcp) - One MCP server for the whole self-hosted media stack: Radarr, Sonarr, Whisparr, Lidarr, Prowlarr, Bazarr, Jellyfin, Plex, Seerr, SABnzbd, NZBGet, Transmission, qBittorrent, Profilarr, Cleanuparr, Reclaimerr and Dispatcharr.
+- [bardesss/arr-mcp](https://github.com/bardesss/arr-mcp) - One MCP server for the whole self-hosted media stack: Radarr, Sonarr, Whisparr, Lidarr, Prowlarr, Bazarr, Jellyfin, Plex, Seerr, SABnzbd, NZBGet, Transmission, qBittorrent, Profilarr, Cleanuparr, Reclaimerr, Dispatcharr and Shelfmark.
 - [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) - Modern and easy to use database GUI & SQL client for MySQL, Postgres, SQLite, SQL Server, ClickHouse, and more. Linux, MacOS, and Windows.
 - [Bowen7/regex-vis](https://github.com/Bowen7/regex-vis) - 🎨 Regex visualizer & editor
 - [C4illin/ConvertX](https://github.com/C4illin/ConvertX) - 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️
@@ -1223,7 +1216,7 @@
 - [docmost/docmost](https://github.com/docmost/docmost) - Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.
 - [domdomegg/computer-use-mcp](https://github.com/domdomegg/computer-use-mcp) - 💻 Give AI models complete control of your computer \(probably a bad idea\)
 - [Done-0/fuck-u-code](https://github.com/Done-0/fuck-u-code) - Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report
-- [dream-num/univer](https://github.com/dream-num/univer) - The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.
+- [dream-num/univer](https://github.com/dream-num/univer) - Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.
 - [dreamhunter2333/cloudflare_temp_email](https://github.com/dreamhunter2333/cloudflare_temp_email) - CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot
 - [easychen/telechan](https://github.com/easychen/telechan) - message api for telegram bot  可供多人发送消息的 telegram 机器人 api ， 类似server酱的开源实现
 - [element-plus/element-plus](https://github.com/element-plus/element-plus) - 🎉 A Vue.js 3 UI Library made by Element team
