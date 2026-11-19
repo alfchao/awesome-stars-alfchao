@@ -1010,6 +1010,7 @@
 - [benfred/py-spy](https://github.com/benfred/py-spy) - Sampling profiler for Python programs
 - [biliup/biliup](https://github.com/biliup/biliup) - 自动直播录制、投稿、twitch、ytb频道搬运工具。命令行投稿\(B站\)和视频下载工具，提供多种登录方式，支持多p。边录边传0落盘
 - [cjpais/Handy](https://github.com/cjpais/Handy) - A free, open source, and extensible speech-to-text application that works completely offline.
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
 - [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
 - [codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale) - An open-source coding agent for your terminal, written in Rust. It works with any model, can split one task across several agents, and every line of it is yours to read.
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs
@@ -1207,7 +1208,6 @@
 - [ChatLab/ChatLab](https://github.com/ChatLab/ChatLab) - Local-first chat history analyzer with AI. | 本地优先的 AI 聊天记录分析工具
 - [Chorus-AIDLC/Chorus](https://github.com/Chorus-AIDLC/Chorus) - The Agent Harness for AI-Human Collaboration, inspired by the AI-DLC \(AI-Driven Development Lifecycle\)
 - [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Chrome DevTools for coding agents
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
 - [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Product specific Cloudflare MCP servers
 - [cloudflare/wrangler-action](https://github.com/cloudflare/wrangler-action) - 🧙‍♀️ easily deploy cloudflare workers applications using wrangler and github actions
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) - OmO: Just type "mass ulw" keyword with your prompt. Now you are the master of graph engineering.
@@ -1474,7 +1474,7 @@
 - [Thearas/wechat-db-decrypt-macos](https://github.com/Thearas/wechat-db-decrypt-macos) - macOS arm64 微信 4.1 数据库解密，只在最新的微信 4.1.2.241 测试过，不支持4.0 以下版本
 - [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100) - Standard Open Arm 100
 - [timofurrer/awesome-asyncio](https://github.com/timofurrer/awesome-asyncio) - A curated list of awesome Python asyncio frameworks, libraries, software and resources
-- [TomBener/stay-away-from-wechat](https://github.com/TomBener/stay-away-from-wechat) - 人生苦短，远离微信
+- [TomBener/archive-2021](https://github.com/TomBener/archive-2021) - 
 - [TWO-ICE/Awesome-NAS-Docker](https://github.com/TWO-ICE/Awesome-NAS-Docker) - 一个专注于 NAS 和 Docker 部署的开源项目合集，覆盖 AI、开发、数据管理、多媒体、运维等场景，提供一键式部署指南和实用教程，让 NAS 变身全能生产力工具！
 - [ultrasonic/ultrasonic](https://github.com/ultrasonic/ultrasonic) - Free and open-source music streaming Android client for Subsonic API compatible servers
 - [vcb-s/guides](https://github.com/vcb-s/guides) - VCB-Studio 公开教程（新版）
